@@ -11,6 +11,19 @@ body {
 .pulse {
   animation: pulse 2s infinite;
 }
+.stick {
+  height: 300px;
+  border: 5px solid black;
+}
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+}
+.highlight {
+  filter: brightness(1.75);
+  box-shadow: 0 0 40px 35px rgba(255, 255, 255, 0.5);
+}
+
 
 @keyframes pulse {
   0% {
